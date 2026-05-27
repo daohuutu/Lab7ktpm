@@ -17,16 +17,22 @@ Postman là một nền tảng toàn diện cho việc phát triển, sử dụn
 - **Bảo mật:** Hỗ trợ các cơ chế xác thực và ủy quyền (API keys, OAuth, Bearer Token, v.v.).
 
 **Giao diện (Overview)**
+![alt text](image.png)
 - **Thanh điều hướng trái:** Nơi quản lý Collections, APIs, Environments và Workspaces.
 - **Khu vực tạo yêu cầu:** Trình soạn thảo URL, phương thức, header, body và tham số.
 - **Bảng kết quả phản hồi:** Hiển thị trạng thái, header và nội dung trả về (JSON, XML, văn bản).
 - **Console & Runner:** Console giúp debug, Runner cho phép chạy bộ sưu tập và xem báo cáo kết quả.
 
 **Hướng dẫn sử dụng cơ bản**
-1. Tạo một request mới, chọn phương thức HTTP và nhập URL.
-2. Thêm header và body nếu cần (ví dụ: JSON trong POST/PUT).
-3. Gửi request và kiểm tra phần phản hồi trong bảng kết quả.
-4. Lưu request vào một Collection để tái sử dụng.
-5. Tạo Environment và sử dụng biến để chuyển đổi giữa các môi trường.
-6. Viết các test script nhỏ trong tab "Tests" để xác thực phản hồi tự động.
+    Với The Pokemon API.
 
+
+1. Tạo một request mới, chọn phương thức HTTP và nhập URL.
+![alt text](image-1.png)
+2. Gửi request và kiểm tra phần phản hồi trong bảng kết quả.
+![alt text](image-2.png)
+3. Lưu request vào một Collection để tái sử dụng.
+![alt text](<Screenshot 2026-05-27 164951-2.png>)
+![alt text](image-3.png)
+4. Viết các test script nhỏ trong tab "Tests" để xác thực phản hồi tự động.
+![alt text](image-4.png)
